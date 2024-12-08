@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>JavaScript Arrays</h2>
+    <h3>join()and pop</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium asperiores reprehenderit corporis et, dolore a qui inventore quos sapiente nulla in minima, perferendis quasi ut?</p>
+
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+
+    <script>
+        var fruits = ["Banana","Orange","Watermelon","Strawberry","Apple","Mango"]
+
+        document.getElementById("myjoin").innerHTML = fruits.join("*");
+
+        document.getElementById("myfirstpop").innerHTML = fruits ;fruits.pop();
+
+        document.getElementById("mysecondpop").innerHTML = fruits;
+    </script>
+</body>
+</html>
